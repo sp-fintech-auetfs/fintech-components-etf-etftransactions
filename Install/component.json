@@ -1,0 +1,58 @@
+{
+	"name" : "ETF Transactions",
+	"route" : "etf/transactions",
+	"description" : "<p>ETF Transactions</p>",
+	"module_type" : "components",
+	"app_type" : "fintech",
+	"category" : "etf",
+	"version" : "0.0.0",
+	"repo" : "https://github.com/sp-fintech-auetfs/fintech-components-etf-etftransactions",
+	"class" : "Apps\\Fintech\\Components\\Etf\\Transactions\\TransactionsComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.12",
+			"repo" : "https://github.com/sp-framework/core"
+		},
+		"apptype" : 
+		{
+			"name" : "Fintech",
+			"version" : "0.3.0",
+			"repo" : "https://github.com/sp-fintech/fintech"
+		},
+		"packages" : 
+		[
+			{
+				"name" : "EtfTransactions",
+				"version" : "0.0.0",
+				"repo" : "https://github.com/sp-fintech-auetfs/fintech-packages-etf-etftransactions"
+			}
+		],
+		"middlewares" : [],
+		"views" : [],
+		"externals" : 
+		{
+			"composer" : 
+			{
+				"require" : []
+			},
+			"config" : 
+			{
+				"allow-plugins" : []
+			},
+			"extra" : 
+			{
+				"patches" : []
+			}
+		}
+	},
+	"menu" : "false",
+	"settings" : 
+	{
+		"mandatory" : true,
+		"needAuth" : "mandatory"
+	},
+	"widgets" : []
+}
